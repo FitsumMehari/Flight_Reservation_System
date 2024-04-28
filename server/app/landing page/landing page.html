@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FRS</title>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="/landing page/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="hamburger-menu">
+            <ul class="menu">
+                <li><a class="menuItem" href="#home">Home</a></li>
+                <li><a class="menuItem" href="/documentation page/docs.html">Documentation</a></li>
+                <li><a class="menuItem" href="#faq">FAQ</a></li>
+                <li><a class="menuItem" href="">Login</a></li>
+            </ul>
+            <button class="hamburger-img">
+        <!-- material icons https://material.io/resources/icons/ -->
+        <img class="menuIcon" src="/landing page/images/hamburger.png">
+        <i class="closeIcon material-icons" id="close" style="filter: brightness(0) invert(1);">close</i>
+      </button>
+            <div class="logo-header">
+                <div class="logo"></div>
+                <div class="logo"></div>
+            </div>
+        </div>
+        <nav>
+            <div class="logo-header">
+                <div class="logo"></div>
+                <div class="logo"></div>
+            </div>
+            <div class="header-text">
+                <a href="#home" style="text-decoration: none; border: none;">Home</a>
+                <a href="/documentation page/docs.html" class="documentation" style="text-decoration: none; border: none;">Documentation</a>
+                <a href="#faq" class="documentation" style="text-decoration: none; border: none;">FAQ</a>
+                <a class="sign-in" id="sign-in" href="/SignIn Page/login.html">Login</a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="landing" id="home">
+            <div class="landing-text">
+                <div class="text">
+                    <h1>Reserve flights where you are in a flash</h1>
+                    <h2>Reserve your flights with our system in just 3 steps</h2>
+                    <div class="burger">
+                        <div class="burg"><img class="hamburger" src="/landing page/images/upload-file.svg" alt=""></div>
+                        <p>Login in to your account or create new account</p>
+                    </div>
+                    <div class="burger">
+                        <div class="burg"><img class="hamburger" src="/landing page/images/extract.svg" alt=""></div>
+                        <p>Choose a flight from the availabile ones</p>
+                    </div>
+                    <div class="burger">
+                        <div class="burg"><img class="hamburger" src="/landing page/images/save.svg" alt=""></div>
+                        <p>And reserve flight of your choice</p>
+                    </div>
+                    <button class="started" id="get-started-btn">Get Started</button>
+                </div>
+                <img class="image" src="/landing page/images/header-image.png"></img>
+            </div>
+
+        </div>
+        <div class="explain" id="documentation">
+
+            <div class="follow">
+                <h2>Follow these simple steps to discover metadata of your files</h2>
+                <div class="follow-text">
+                    <div class="vector">
+                        <img class="vector-svg" src="/landing page/images/download.svg" alt="">
+                        <h3>Get authorized</h3>
+                        <p>Sign in to book a flight.</p>
+                    </div>
+                    <div class="get">
+                        <img class="view-svg" src="/landing page/images/get.svg" alt="">
+                        <h3>Select a flight</h3>
+                        <p>Scroll through every availabile flight varying in - date, time, source and destination, and many other information.
+                        </p>
+                    </div>
+                    <div class="download">
+                        <img class="download-svg" src="/landing page/images/download.svg" alt="">
+                        <h3>Reserve your flight</h3>
+                        <p>Select a flight of your own choice at your preferred location and time.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="why">
+                <h1 class="platform">Why choose this platform?</h1>
+                <h1 class="this">Why <span class="choose">Choose this platform?</span></h1>
+                <div class="reason">
+                    <div class="professional">
+                        <div class="trusted">
+                            <img src="/landing page/images/trusted.svg" alt="">
+                            <h3>Professional and Trusted</h3>
+                            <p>We have a great tech team of worldclass designers and developers, you can see what many users have said about us</p>
+                        </div>
+                        <div class="efficient">
+                            <img src="/landing page/images/efficient.svg" alt="">
+                            <h3>Efficient</h3>
+                            <p>We have a great tech team of worldclass designers and developers, you can see what many users have said about us</p>
+                        </div>
+                    </div>
+                    <div class="security">
+                        <div class="secure">
+                            <img src="/landing page/images/shield.svg" alt="">
+                            <h3>Security</h3>
+                            <p>We have have put in place various security checks to prevent any damage.</p>
+                        </div>
+                        <div class="management">
+                            <img src="/landing page/images/management.svg" alt="" style="padding-top: 30px;">
+                            <h3>Management</h3>
+                            <p>We have have put in place various security checks to prevent any damage.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="users">
+                <h1>What some of our users have to say about our platform</h1>
+                <div class="cards">
+                    <div class="first-user">
+                        <img src="/landing page/images/Dozie.svg" alt="">
+                        <p class="words"><span style="color: #484848; font-size: 3rem;">“</span>Wooow, I was able to reserve a flight using this solution.</p>
+                        <p class="name">John Dozie</p>
+                    </div>
+                    <div class="second-user">
+                        <img src="/landing page/images/Christie.svg" alt="">
+                        <p class="words"><span style="color: #FFFFFF; font-size: 3rem;">“</span>My experience with this platform is the best i have had. Thanks to the entire team, you saved my time.
+                        </p>
+                        <p class="name" style="padding-top: 60px;">Christie Sam</p>
+                    </div>
+                    <div class="third-user">
+                        <img src="/landing page/images/Maryann.svg" alt="">
+                        <p class="words"><span style="color: #2B2B2B; font-size: 3rem;">“</span>I didn't expect much when I saw this was free, but I was surprised.</p>
+                        <p class="name">Maryann D</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </main>
+    <footer>
+        <div class="contact">
+            <div class="contact-info">
+                <img class="location" src="/landing page/images/icon-location.svg" alt="location">
+                <p>8 Jubile-CMD Road, Magodo, Lagos State</p>
+            </div>
+            <div class="contact-info">
+                <img class="phone-img" src="/landing page/images/icon-phone.svg" alt="phone">
+                <p>+234-70-123-4567</p>
+            </div>
+            <div class="contact-info">
+                <img class="email" src="/landing page/images/icon-email.svg" alt="email">
+                <p>hello@zuri.team</p>
+            </div>
+        </div>
+        <div class="links">
+            <a class="about" href="#about">About Us</a>
+            <a class="whatwedo" href="#whatwedo">What We Do</a>
+            <a class="faq" href="#faq">FAQ</a>
+            <a class="career" href="#career">Career</a>
+            <a class="blog" href="#blog">Blog</a>
+            <a class="contact" href="#contact">Contact Us</a>
+        </div>
+
+        <div class="social">
+            <a href="https://zuri.team/" target="_blank"><img class="facebook" src="/landing page/images/website.png" alt="facebook"></a>
+            <a href="https://www.twitter.com/theZuriTeam" target="_blank"><img class="twitter" src="/landing page/images/twitter.png" alt="twitter"></a>
+            <a href="https://www.instagram.com/Zuri.Team" target="_blank"><img class="instagram" src="/landing page/images/instagram.png" alt="instagram"></a>
+        </div>
+        <div class="copyright">
+            &copy; 2022 Team 82 fetch_metadata
+        </div>
+    </footer>
+    <script src="/landing page/script.js"></script>
+</body>
+
+</html>
